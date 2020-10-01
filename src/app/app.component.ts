@@ -12,7 +12,7 @@ export class AppComponent {
   submitted = false;
 
   // City names
-  City: any = ['Florida', 'South Dakota', 'Tennessee', 'Michigan']
+  City: any = ['Florida', 'South Dakota', 'Tennessee', 'Michigan', 'Delhi']
   
   constructor(
     public fb: FormBuilder,
