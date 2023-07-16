@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Muli:200,300,400,600");
+
+body {
+  font-family: "Muli", sans-serif;
+  background: #7ddcd5;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+.custom-wrapper {
+  max-width: 460px;
+  margin: 0 auto 50px;
+}
+
+.h2,
+h2 {
+  font-size: 1.45rem;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.group-gap {
+  margin-bottom: 40px;
+}
+
+.btn.focus,
+.btn:focus,
+.form-control:focus,
+.custom-select:focus,
+.custom-select:focus {
+  box-shadow: none;
+}
+
+.form-control:focus,
+.custom-select:focus {
+  border: 1px solid #f63240;
+}
+
+
+.btn-group-lg > .btn,
+.btn-lg {
+  padding: 13px 15px 15px;
+  font-size: 16px;
+  border-radius: 0;
+}
+
+.form-control {
+  height: auto;
+  padding: 15px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 0;
+  background: #fbbe02;
+  border: 1px solid #f63240;
+}
+
+.custom-select {
+  height: auto;
+  padding: 15px;
+  font-size: 26px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #000;
+  background-color: #fbbe02;
+  border: 2px solid #000;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #e91e63;
+  background-color: #e91e63;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+}
+
+.custom-control-label {
+  cursor: pointer;
+}
+
+.error:focus,
+.error {
+  border-color: #e91e63;
+  color: #e91e63;
+}
+
+.invalid-feedback {
+  color: #e91e63;
+}
+
+.btn-danger,
+body .btn-danger:hover {
+  background: #f63240;
+  border-color: #f63240;
+  color: #fff;
+}
